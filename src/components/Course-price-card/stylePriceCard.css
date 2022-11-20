@@ -1,0 +1,8 @@
+.checkIcon{
+    color: #32D74B;
+}
+.price-info-wrapp{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}

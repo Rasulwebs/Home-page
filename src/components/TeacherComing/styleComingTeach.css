@@ -1,0 +1,88 @@
+.comingTeachWrapp {
+  position: relative;
+  margin-top: 100px;
+  background-color: #fff !important;
+}
+
+.comingTinpt {
+  border: 1px solid #32d74b;
+  box-shadow: none !important;
+  background-color: #e3e3e3;
+}
+.comingTinpt:focus {
+  border: 1px solid #32d74b;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.comingTeachBtn {
+  padding: 10px 70px 10px 70px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  background-color: #32d74b !important;
+  color: #fff !important;
+  transition: 0.3s all linear;
+  border: 1px solid #fff;
+}
+
+.comingTeachBtn:hover {
+  background-color: #0d8a20 !important;
+  color: #fff;
+}
+.comingTeachBtn:active {
+  background-color: #32d74b !important;
+  color: #fff !important;
+}
+
+.girlTeachImgWrapp {
+  position: relative;
+}
+.ctwrapp {
+  margin-left: 60px !important;
+}
+.comingTeachTitlee {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #242426;
+}
+
+@media only screen and (max-width: 992px) {
+  .circleeImgWrapp {
+    display: none;
+  }
+  .formssWrappp{
+    padding-top: 60px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ctwrapp {
+    margin-left: 0px !important;
+  }
+.inputsWrappp{
+    width: 400px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comingTinpt{
+    max-width: 400px;
+    width: 100%;
+}
+
+}
+
+@media only screen and (max-width: 576px) {
+    .inputsWrappp{
+        width: 300px ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+   
+}

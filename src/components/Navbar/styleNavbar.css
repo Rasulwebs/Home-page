@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+/*  */
+.navImg {
+  width: 260px !important;
+  height: 40px !important;
+}
+/* .navbar {
+
+} */
+.heroText {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  color: #242426;
+}
+.blacknHero {
+  font-weight: 800;
+}
+.greenHero {
+  font-weight: 800;
+  color: #32d74b;
+}
+.hero {
+  min-height: 540px;
+}
+.hero-left {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.hero-right {
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.heroBtn {
+  margin-top: 30px;
+  background-color: #32d74b;
+  font-weight: 700;
+  font-size: 14px !important;
+  line-height: 21px;
+  color: #fff;
+  transition: 0.3s all linear;
+}
+.heroBtn:hover {
+  background-color: #0d8a20;
+  color: #fff;
+}
+.heroBtn:active {
+  background-color: #32d74b !important;
+  color: #fff !important;
+}
+
+.apppp-links {
+  position: fixed;
+  top: 250px;
+  right: 0;
+  z-index: 99;
+}
+.apppp-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  background-color: #fff;
+  font-size: 30px;
+  padding: 0px 6px 0px 6px;
+  margin: 3px 0 3px 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.heroinfoImg {
+  max-width: 900px;
+  width: 100%;
+}
+.heroinfoImg {
+  position: absolute;
+  right: 0px;
+}
+
+@media (max-width: 992px) {
+  .mll {
+    padding-right: 50px !important;
+  }
+  .apppp-links {
+    top: 450px;
+  }
+}
+@media (max-width: 768px) {
+  .hero-left {
+    min-height: 300px;
+    align-items: flex-start;
+  }
+  .hero-right {
+    min-height: 400px;
+  }
+  .apppp-links {
+    top: 350px;
+  }
+}
+@media (max-width: 576px) {
+  .apppp-links {
+    top: 490px;
+  }
+
+  .hero-left {
+    min-height: 300px;
+    align-items: flex-start;
+  }
+  .hero-right {
+    min-height: 300px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .apppp-links {
+    top: 660px;
+  }
+
+  .hero-right {
+    margin-top: 60px;
+    min-height: 200px;
+    display: flex;
+    align-items: flex-start;
+  }
+}

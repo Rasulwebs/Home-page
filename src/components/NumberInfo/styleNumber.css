@@ -1,0 +1,89 @@
+.info-bg {
+  background-color: #fff;
+  padding: 15px 0 15px 0;
+}
+.numbInfo-links a {
+  color: #32d74b;
+  font-size: 30px;
+  margin: 10px;
+  opacity: 1;
+  z-index: 98;
+}
+.circular-progress {
+  position: relative;
+  height: 180px;
+  width: 180px;
+  /* background-color: rgba(137, 43, 226, 0.595); */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circular-progress::before {
+  content: "";
+  position: absolute;
+  width: 84%;
+  height: 84%;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.value-circlee {
+  position: relative;
+
+  color: #32d74b;
+}
+.circValuee {
+  font-size: 40px;
+}
+.circular-progress2 {
+  position: relative;
+  height: 180px;
+  width: 180px;
+  /* background-color: rgba(137, 43, 226, 0.595); */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circular-progress2::before {
+  content: "";
+  position: absolute;
+  width: 84%;
+  height: 84%;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.value-circlee2 {
+  position: relative;
+
+  color: #32d74b;
+}
+.circValuee2 {
+  font-size: 40px;
+}
+.circular-progress3 {
+  position: relative;
+  height: 180px;
+  width: 180px;
+  /* background-color: rgba(137, 43, 226, 0.595); */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circular-progress3::before {
+  content: "";
+  position: absolute;
+  width: 84%;
+  height: 84%;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.value-circlee3 {
+  position: relative;
+
+  color: #32d74b;
+}
+.circValuee3 {
+  font-size: 40px;
+}

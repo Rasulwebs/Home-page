@@ -1,0 +1,9 @@
+body{
+    overflow-x: hidden !important;
+    background-color: #a9f2ff3f ;
+}
+
+.container{
+    max-width: 1290px !important;
+    width: 100%;
+}

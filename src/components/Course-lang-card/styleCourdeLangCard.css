@@ -1,0 +1,44 @@
+.card {
+  width: 300px;
+  margin: 40px 0px 20px 0px;
+  position: relative;
+}
+
+.langCardWrapp {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.langCardInfoBtn {
+position: absolute !important;
+right: 0 !important;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  background-color: #32d74b;
+  color: #fff;
+  transition: 0.3s all linear;
+}
+
+.langCardInfoBtn:hover {
+  background-color: #0d8a20;
+  color: #fff;
+}
+.langCardInfoBtn:active {
+  background-color: #32d74b !important;
+  color: #fff !important;
+}
+
+@media  (max-width: 992px) {
+  .langCardWrapp {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}
+
+@media (max-width: 320px) {
+}

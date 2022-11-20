@@ -1,0 +1,200 @@
+.courses {
+  margin-top: 100px;
+}
+.priceInfoWrapp {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.teacherCardWrapp {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.teachwrapp {
+  margin-top: 100px;
+}
+.teachInfo {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #242426;
+}
+.carusellWrapp {
+  margin-bottom: 300px;
+  position: relative;
+}
+.caruselActiveBtn {
+  position: absolute;
+  bottom: -50px;
+}
+.caruselAPgeBtn {
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+  background-color: #32d74b !important;
+}
+.prevBtn {
+  position: absolute;
+  left: 10px;
+  top: 200px;
+  background-color: rgba(240, 248, 255, 0.592);
+  border-radius: 50%;
+  width: 30px !important;
+  height: 30px !important;
+  display: flex;
+  align-items: center;
+  color: #32d74b;
+}
+.nextBtn {
+  position: absolute;
+  right: 10px;
+  top: 200px;
+  color: #009416;
+  background-color: rgba(240, 248, 255, 0.592);
+  border-radius: 50%;
+  width: 30px !important;
+  height: 30px !important;
+  display: flex;
+  align-items: center;
+}
+
+.forbabyTitle,
+.forFamilyTitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #242426;
+}
+.forFamilyText1,
+.forbabyText1 {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  color: #242426;
+}
+.forImgg {
+  max-width: 630px;
+  width: 100%;
+}
+.aboutInfoWrapp {
+  margin-top: 200px !important;
+}
+.aboutInfoTitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #242426;
+}
+
+.aboutText1,
+.aboutText2 {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 30px;
+  color: #242426;
+}
+.aboutImgg {
+  max-width: 630px;
+  width: 100%;
+}
+.faqWrapp {
+  margin-top: 100px;
+}
+.comngteachWrapp {
+  margin-bottom: 200px !important;
+}
+.rewiewsWrapp {
+  background-color: #fff;
+  padding: 40px 0 40px 0;
+}
+.revFormWrapp {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.reviewInpt {
+  border: 1px solid #32d74b;
+  box-shadow: none !important;
+  background-color: #e3e3e3b2;
+}
+.reviewInpt:focus {
+  border: 1px solid #32d74b;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.revFormbtn {
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  background-color: #32d74b !important;
+  color: #fff !important;
+  transition: 0.3s all linear;
+}
+
+.revFormbtn:hover {
+  background-color: #0d8a20 !important;
+  color: #fff;
+}
+.revFormbtn:active {
+  background-color: #32d74b !important;
+  color: #fff !important;
+}
+
+.blogWrapp{
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+iframe{
+  width: 100% ;
+  height: 100%;
+}
+.contactUsWrapp{
+  margin-top: 60px;
+  margin-bottom: 200px;
+}
+@media (max-width: 992px) {
+  .priceInfoWrapp {
+    justify-content: space-around;
+  }
+  .teacherCardWrapp {
+    justify-content: space-around;
+  }
+  .forFamilyImg {
+    order: 2;
+    text-align: center;
+  }
+  .forBabyImg {
+    margin: 30px 0 30px 0;
+    text-align: center;
+  }
+  .forFamilyInfo {
+    order: 1;
+    margin: 30px 0 30px 0;
+  }
+}
+@media (max-width: 768px) {
+  .forFamilyImg {
+    order: 2;
+    text-align: center;
+  }
+  .forFamilyInfo {
+    order: 1;
+  }
+  .revFormWrapp {
+    flex-direction: column;
+  }
+  .reviewInpt {
+    margin: 20px 0 20px 0;
+  }
+}
+@media (max-width: 576px) {
+}
+
+@media (max-width: 320px) {
+}

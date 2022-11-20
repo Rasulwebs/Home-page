@@ -1,0 +1,51 @@
+.accordion-body{
+    background-color: #F1F1F1;
+}
+.faqTitle{
+    font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+color: #242426;
+
+}
+.btnFaq{
+  padding: 10px 70px 10px 70px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    background-color: #32d74b !important;
+    color: #fff !important;
+    transition: 0.3s all linear;
+  }
+  
+  .btnFaq:hover {
+    background-color: #0d8a20 !important;
+    color: #fff;
+  }
+  .btnFaq:active {
+    background-color: #32d74b !important;
+    color: #fff !important;
+  }
+
+  .faqInput{
+    border: 1px solid #32d74b;
+    
+    box-shadow: none !important;
+  }
+  .faqInput:focus{
+    border: 1px solid #32d74b;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  /* .faqInput:hover{
+    outline: #32d74b !important;
+  }
+   */
+
+@media only screen and (max-width: 768px) {
+    .faqformWrapp{
+        margin-top: 80px;
+    }
+}
